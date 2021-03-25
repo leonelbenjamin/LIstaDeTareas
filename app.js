@@ -6,13 +6,7 @@ const input = document.getElementById("input")
 const listaTarea = document.getElementById('lista-tareas')
 const template = document.getElementById("template").content
 const fragment = document.createDocumentFragment()
-let tareas = {
-    123:{
-        id: 123,
-        texto: 'asd',
-        estado: false
-    }   
-}
+let tareas = {}
 
 
 //***EVENTOS***
